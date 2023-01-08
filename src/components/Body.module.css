@@ -8,3 +8,31 @@
     left: 0;
 
 }
+.number1{
+    font-size: 150pt;
+    font-weight: bolder;
+    position: absolute;
+    top: -300px;
+    left: 215px;
+    color: #9981752d;
+    display: flex;
+    align-items: center;
+}
+.number1 span{
+    font-size: 40pt;
+    color: #998175;
+}
+.number1Text{
+    color: #998175;
+    margin-left: 215px;
+    position: absolute;
+    top: -110px;
+    left: 222px;
+    font-size: 40pt;
+    font-weight: bolder;
+}
+.otherFont{
+    font-weight: 100;
+    font-family: 'dancing script', serif;
+}
+    
