@@ -1,10 +1,13 @@
 import React from "react";
-import Header from "./components/Header";
-
+import styles from "./App.module.css"
+import Banner from "./components/Banner";
+import Body from "./components/Body";
+ 
 function App() {
   return (
-    <div>
-      <Header />
+    <div className={styles.container}>
+      <Banner />
+      <Body />
     </div>
   );
 }

@@ -1,0 +1,31 @@
+.container{
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.container h1{
+    color: #998175;
+    transition: 0.3s all ease;
+    z-index: 10;
+}
+.listHolder{
+    list-style-type: none;
+    display: flex;
+}
+.listHolder li{
+    font-size: 14pt;
+    margin: 20px 0 20px 40px;
+    color: #998175;
+    transition: 0.3s all ease;
+    z-index: 10;
+}
+.listHolder li:hover{
+    color: #D5CEA3;
+    cursor: pointer;
+}
+.container h1:hover{
+    color: #D5CEA3;
+    cursor: pointer;
+}
