@@ -27,6 +27,7 @@
     position: absolute;
     left: 220px;
     top: 290px;
+    animation: bannerText 3s;
     
 }
 .animatedText p{
@@ -36,4 +37,14 @@
 .animatedText h2{
     font-size: 30pt;
     color: #D5CEA3;
+}
+@keyframes bannerText {
+    0%{
+        transform: translateY(1000px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
 }
