@@ -1,3 +1,8 @@
+.main{
+    z-index: 150;
+    display: flex;
+    flex-direction: column;
+}
 .container{
     background-color: #17171f;
     width: 100%;
@@ -33,6 +38,45 @@
 }
 .otherFont{
     font-weight: 100;
-    font-family: 'dancing script', serif;
+    font-family: 'Pacifico', serif;
+    color:#D5cea3 !important;
+
 }
-    
+.container img{
+    z-index: 20;
+    height: 850px;
+    position: absolute;
+    left: 1250px;
+    top: -100px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 20px #998175;
+}
+.number2{
+    color: #998175;
+    font-size: 25pt;
+    width: 593px;
+    text-align: justify;
+    margin-left: 225px;
+    margin-top: 180px;
+    text-shadow: 4px 3px 5px #7a665d;
+}
+.number3{
+    font-size: 150pt;
+    font-weight: bolder;
+    color: #9981752d;
+    display: flex;
+    align-items: center;
+    z-index: 200;
+    position: absolute;
+    top: 0px;
+    left: 1500px;
+}
+.container2{
+    height: 2000px;
+    width: 100%;
+    background-color: #17171f;
+    z-index: 250;
+    position: absolute;
+    left: 0;
+    top: 2215px;
+}
