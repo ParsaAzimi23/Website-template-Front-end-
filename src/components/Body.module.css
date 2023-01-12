@@ -69,14 +69,38 @@
     z-index: 200;
     position: absolute;
     top: 0px;
-    left: 1500px;
+    left: 1000px;
 }
 .container2{
-    height: 2000px;
+    height: 700px;
     width: 100%;
     background-color: #17171f;
     z-index: 250;
     position: absolute;
     left: 0;
     top: 2215px;
+}
+.text1{
+    font-size: 40pt ;
+    color: #998175;
+    position: absolute;
+    left: 1250px;
+    top: 40px;
+}
+.container2 img{
+    position: absolute;
+    left: 50px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 20px #998175;
+    top: 40px;
+}
+.secondText{
+    width: 500px;
+    text-align: justify;
+    position: absolute;
+    left: 1250px;
+    top: 250px;
+    font-size: 25pt;
+    color: #998175;
+    text-shadow: 4px 3px 5px #7a665d;
 }

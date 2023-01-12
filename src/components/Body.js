@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from "./Body.module.css"
 import Image from "../Images/3.jfif"
+import Image2 from "../Images/2.jfif"
 
 const Body = () => {
     return (
@@ -14,6 +15,14 @@ const Body = () => {
             </div>
             <div className={styles.container2}>
                 <p className={styles.number3}>02</p>
+                <h3 className={styles.text1}>How do you feel?</h3>
+                <img src={Image2} alt='02'/>
+                <p className={styles.secondText}>Lorem ipsum dolor sit amet consectetur
+                     adipisicing elit. Earum quam inventore providen
+                     t, voluptas est cum facilis dolores rem commod
+                     i libero excepturi repellat, 
+                    aspernatur, mollitia nam. Porro recusandae dolorem ad aspernatur!
+                </p>
             </div>
         </div>
     );
