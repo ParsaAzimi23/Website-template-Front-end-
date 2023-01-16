@@ -15,7 +15,7 @@ const Body = () => {
             </div>
             <div className={styles.container2}>
                 <p className={styles.number3}>02</p>
-                <h3 className={styles.text1}>How do you feel?</h3>
+                <h3 className={styles.text1}>How do you feel about <span className={styles.otherFont}>Camping</span> ?</h3>
                 <img src={Image2} alt='02'/>
                 <p className={styles.secondText}>Lorem ipsum dolor sit amet consectetur
                      adipisicing elit. Earum quam inventore providen
